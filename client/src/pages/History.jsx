@@ -6,8 +6,9 @@ export default function History() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/games")
-      .then((res) => setGames(res.data));
+      .get("http://13.60.224.178:5000/api/games")
+      .then((res) => setGames(res.data))
+      .catch((err) => console.log(err));
   }, []);
 
   return (
