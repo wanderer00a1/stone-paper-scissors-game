@@ -52,7 +52,7 @@ export default function Game() {
     let finalWinner = "tie";
     if (p1Score > p2Score) finalWinner = player1;
     else if (p2Score > p1Score) finalWinner = player2;
-    await axios.post("http://localhost:5000/api/games", {
+    await axios.post("http://13.60.224.178:5000/api/games", {
       player1,
       player2,
       rounds: roundsData,
