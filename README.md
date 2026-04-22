@@ -37,4 +37,4 @@ GET /api/games
 
 ## Deployment
 
-Hosted on AWS / GCP
+Hosted on AWS
