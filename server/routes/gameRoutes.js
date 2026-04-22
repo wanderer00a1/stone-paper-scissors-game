@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const Game = require("../models/game");
+const Game = require("../models/Game");
 
 // save game
 router.post("/", async (req, res) => {
